@@ -1,0 +1,49 @@
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+    font-family: 'helvetica';
+    src: url('fonts/Helvetica.otf');    
+}
+
+.header{
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+img{
+	height: 100%;
+	width: 100%;
+	font-family: 'helvetica';
+}
+
+p, li{
+	font-size: 18px;
+	line-height: 23px;
+}
+p{
+}
+
+.main{
+	width: 100%;
+	height: auto;
+	/*background-color: #ececec;*/
+	width: 800px;
+	position: relative;
+	margin: 0px auto;
+	font-family: 'helvetica';
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 800px;
+	position: relative;
+	margin: 0px auto;
+	height: auto;
+}
+.foot-el{
+	height: 200px;
+	width: 200px;
+}
